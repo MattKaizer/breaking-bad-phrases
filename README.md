@@ -1,3 +1,23 @@
+# Breaking Bad App
+[link-netlify-preview](https://cocky-boyd-0af365.netlify.app)
+
+### Simple React App
+
+## Task Description
+
+Simple app build with reactJS, working with hooks, style components, react-transitions. The idea is to implement styled components and transitions and REST API requests.
+
+#### Enum Tech used
+
+* HTML5
+* CSS3
+* JS
+* ReacJS
+* ShortId
+
+
+<hr>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
