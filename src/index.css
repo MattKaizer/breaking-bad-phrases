@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  min-height: 100vh;
 }
 *,
 *:before,
@@ -9,10 +10,9 @@ html {
 * {
   margin: 0;
 }
-html {
-  height: 100%;
-}
+
 body {
+  min-height: 100vh;
   background-image: url(logo.svg),
     -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
   min-height: 100%;
