@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import PropTypes from "prop-types";
 
 import styled from "@emotion/styled";
 
@@ -40,7 +41,7 @@ const Container = styled.div`
 
 const Phrase = ({phrase}) => {
 
-    
+
 
     return ( 
         <Fragment>
@@ -50,6 +51,10 @@ const Phrase = ({phrase}) => {
             </Container>
         </Fragment>
      );
+}
+
+Phrase.propTypes = {
+    phrase: PropTypes.object.isRequired
 }
  
 export default Phrase;
